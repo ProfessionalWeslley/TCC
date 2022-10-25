@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="cate1.css" type="text/css">
+    <script type="text/javascript" src="cate.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+   
+   <!-- JavaScript Bundle with Popper -->
+  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+   
+  </head>
+
+<body >
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ 
+ <!--barra de navegação-->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark  style-barra ">
+    <a class="navbar-brand" href="home.html">
+      <img src="midia/logo.gif" width="45" height="45" alt="">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active esp">
+        <a class="nav-link" href="login.html"><h3>LOGIN</h3> <span class="sr-only">(página atual)</span></a>
+      </li>
+      <li class="nav-item active esp">
+        <a class="nav-link" href="registro.html"><h3>REGISTRAR</h3></a>
+      </li>
+      <li class="nav-item active dropdown esp2">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <h3>CATEGORIAS</h3>
+        </a>
+        <div class="dropdown-menu border border-light bg-dark" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="cate1.html"><h6>RECOMENDAÇÕES</h6></a>
+          <a class="dropdown-item" href="#"><h6>GUIA GERAL</h6></a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Algo mais aqui</a>
+        </div>
+      </li>
+      <form class="form-inline my-2 my-lg-0 ">
+        <input class="form-control mr-sm-2 esp4" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="my-0 my-sm-0 style-pesquisa esp5" type="submit"><img class="style-pesquisa-img" src="midia/botão.png"  alt=""></button>
+      </form>
+
+      <li class="nav-item active esp6">
+        <a class="nav-link" href="sobre.html"><h3>SOBRE</h3></a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+  
+  <!--fim da barra de navegação-->
+
+
+<div class="relative">
+
+  <h1>RECOMENDAÇÕES DA SEMANA</h1>
+
+</div>
+
+<!--carousel-->
+<div class="relative2">
+ <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+       
+      <img class="carousel-img" class="d-block w-100" src="midia/lego-movie2.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="text-bord">
+            <h5>THE LEGO MOVIE 2 (VIDEOGAME)</h5>
+            <br>
+           <p>O Lego Movie Videogame é um videogame de ação e aventura com tema Lego desenvolvido pela TT Fusion. , 
+             o jogo coloca os jogadores no controle de vários personagens do filme, utilizando peças de Lego para 
+             percorrer vários níveis. Pela primeira vez na série, os ambientes, além da área de bônus, são
+              totalmente feitos de peças de Lego.</p>
+              <a href="https://store.steampowered.com/app/881320/The_LEGO_Movie_2_Videogame/"><button class="button3"><h1>JOGAR</h1></button></a>
+        </div>   
+      </div>
+    </div>
+    <div class="carousel-item">
+      
+      <img  class="carousel-img" class="d-block w-100" src="midia/sackboy.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="text-bord">
+          <h5>..erferwwefwf.</h5>
+          <p>...dwdwdwdwdwdw</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      
+      <img  class="carousel-img" class="d-block w-100" src="midia/tombraider.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+          <div class="text-bord">
+             <h5>.wdwdwdwdwd..</h5>
+             <p>..dwdwdwdw.</p>
+          </div>
+      </div>
+    </div>
+    
+  </div>
+    
+  </div>
+  <button id="button-carousel" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="" aria-hidden="true"></span>
+   <span class="visually-hidden"><p class="p-carousel">back</p></span>
+  </button>
+  <button id="button-carousel" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="" aria-hidden="true"></span>
+    <span class="visually-hidden"><p class="p-carousel">Next</p></span>
+  </button>
+</div>
+
+<br><br><br>
+
+<div class="text-bord-cate">
+   
+  <h1>AVENTURA</h1>
+
+</div>
+
+<br><br><br>
+<!---------carousel mult item--------->
+<div class="carousel2">
+  <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-------item 1/1------->
+      
+      <div class="carousel-item active">        
+        <div class="carousel-card1" >
+          <div class="img-card1"><img src="midia/tombraider.jpg" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h1 class="carousel">Tomb Raider</h1>
+            <p>...
+           
+            </p>
+            <a href="https://store.steampowered.com/app/203160/Tomb_Raider/"><button class="carousel-button"><h1 class="carousel">JOGAR</h1></button> </a>
+          </div>
+        </div>
+        <!-------item 1/2------->
+        <div class="carousel-card2" >
+          <img src="midia/sackboy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="carousel">Sackboy</h1>
+            <p>...
+  
+            </p>
+            <a href="https://www.playstation.com/pt-br/games/sackboy-a-big-adventure/"><button class="carousel-button"><h1 class="carousel">JOGAR</h1></button> </a>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="carousel-item">
+       
+    
+      
+        
+      </div>
+    </div>
+    <button id="button-carousel" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+      <span class="" aria-hidden="true"></span>
+     <span class="visually-hidden"><p class="p-carousel"><h1><</h1></p></span>
+    </button>
+    <button id="button-carousel" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+      <span class="" aria-hidden="true"></span>
+      <span class="visually-hidden"><p class="p-carousel"><h1>></h1></p></span>
+    </button>
+  </div>
+</div>
+
+
+</body>
+</html>

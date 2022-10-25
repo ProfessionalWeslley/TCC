@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@700&display=swap');
+
+body{background-image: url("midia/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+div.relative {top: 100PX;
+    left: 35%;
+    position: relative;
+    width: 30%;
+   
+    border: 5px solid white;
+    border-radius: 15PX;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+  } 
+.DIV{
+    background-color: black ;
+    opacity: 50%;
+    border: 5px solid white;
+
+}
+div.absolute {
+    position: absolute;
+    border: 0px solid white;
+    border-radius: 15PX;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 100%;
+
+  }
+  
+  H1{
+    color: white;
+    opacity: 100%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+
+    } 
+    p{color: white;
+        font-family: 'Anton', sans-serif;
+
+    }
+    /*botões*/
+    .button1{
+        
+    width: 40%;
+    height:75px;
+    border-radius: 15px;
+    border: 5px solid ;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .button2{
+    
+   
+    height:75px;
+    border-radius: 15px;
+    border: 5px solid ;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+margin-left: 10PX;
+
+  }
+  .button3{     
+    height:75px;
+    border-radius: 15px;
+    border: 5px solid ;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+
+ }
+ .select{
+
+height: 35PX;
+
+ }
